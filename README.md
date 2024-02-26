@@ -1,5 +1,5 @@
 # Guess-Capitals
-This repository contains a Python script for a game called "Guess The Capitals". In this game, the user is prompted to guess the capital of various states. The script evaluates the user's input and provides feedback on whether the guess is correct or incorrect.
+In this game, user is prompted to guess the capital of various states of America. The script evaluates the user's input and provides feedback on whether the guess is correct or incorrect.
 
 How to Play
 
