@@ -12,17 +12,17 @@ print("\t\tGuess The Capitals Game")
 correct=0
 incorrect=0
 for key,value in state_capitals.items():
-    query=input("\nWhat is the capital of " + key.title() + "? (or 'exit' to quit):").title().strip()
+    query=input("\nWhat is the capital of " + key.title() + "? (or 'Exit' to quit):").title().strip()
     if query == value:
         print("Your answer is correct")
         correct += 1
         print("Correctly answered:", correct)
         print("Incorrectly answered:",incorrect)
     elif query != value:
-        print("Your answer is wrong","\nThe captial of", key.title(), "is" ,value.title())
+        print("Your answer is wrong","\nThe capital of", key.title(), "is" ,value.title())
         incorrect = incorrect + 1
         print("Correctly Answered:", correct)
         print("Incorrectly Answered:",incorrect)
-    elif query == 'Exit':
+    if query == 'Exit
         print("Thanks for playing!")
         break
